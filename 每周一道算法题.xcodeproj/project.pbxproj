@@ -8,10 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		8A939651231B51F800C15F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A939650231B51F800C15F30 /* main.m */; };
+		8A93965E231B526D00C15F30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A93965D231B526D00C15F30 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		8A93964B231B51F800C15F30 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		8A939659231B526D00C15F30 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -25,10 +35,19 @@
 /* Begin PBXFileReference section */
 		8A93964D231B51F800C15F30 /* 每周一道算法题 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "每周一道算法题"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A939650231B51F800C15F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A93965B231B526D00C15F30 /* 001-150-逆波兰表达式求值 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "001-150-逆波兰表达式求值"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A93965D231B526D00C15F30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8A93964A231B51F800C15F30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A939658231B526D00C15F30 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -42,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				8A93964F231B51F800C15F30 /* 每周一道算法题 */,
+				8A93965C231B526D00C15F30 /* 001-150-逆波兰表达式求值 */,
 				8A93964E231B51F800C15F30 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,6 +70,7 @@
 			isa = PBXGroup;
 			children = (
 				8A93964D231B51F800C15F30 /* 每周一道算法题 */,
+				8A93965B231B526D00C15F30 /* 001-150-逆波兰表达式求值 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +81,14 @@
 				8A939650231B51F800C15F30 /* main.m */,
 			);
 			path = "每周一道算法题";
+			sourceTree = "<group>";
+		};
+		8A93965C231B526D00C15F30 /* 001-150-逆波兰表达式求值 */ = {
+			isa = PBXGroup;
+			children = (
+				8A93965D231B526D00C15F30 /* main.m */,
+			);
+			path = "001-150-逆波兰表达式求值";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -82,6 +111,23 @@
 			productReference = 8A93964D231B51F800C15F30 /* 每周一道算法题 */;
 			productType = "com.apple.product-type.tool";
 		};
+		8A93965A231B526D00C15F30 /* 001-150-逆波兰表达式求值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A93965F231B526D00C15F30 /* Build configuration list for PBXNativeTarget "001-150-逆波兰表达式求值" */;
+			buildPhases = (
+				8A939657231B526D00C15F30 /* Sources */,
+				8A939658231B526D00C15F30 /* Frameworks */,
+				8A939659231B526D00C15F30 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "001-150-逆波兰表达式求值";
+			productName = "001-150-逆波兰表达式求值";
+			productReference = 8A93965B231B526D00C15F30 /* 001-150-逆波兰表达式求值 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -92,6 +138,9 @@
 				ORGANIZATIONNAME = zhongaidong;
 				TargetAttributes = {
 					8A93964C231B51F800C15F30 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					8A93965A231B526D00C15F30 = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
@@ -109,6 +158,7 @@
 			projectRoot = "";
 			targets = (
 				8A93964C231B51F800C15F30 /* 每周一道算法题 */,
+				8A93965A231B526D00C15F30 /* 001-150-逆波兰表达式求值 */,
 			);
 		};
 /* End PBXProject section */
@@ -119,6 +169,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A939651231B51F800C15F30 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A939657231B526D00C15F30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A93965E231B526D00C15F30 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +312,24 @@
 			};
 			name = Release;
 		};
+		8A939660231B526D00C15F30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94QR2AD3FW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A939661231B526D00C15F30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94QR2AD3FW;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -271,6 +347,15 @@
 			buildConfigurations = (
 				8A939655231B51F800C15F30 /* Debug */,
 				8A939656231B51F800C15F30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A93965F231B526D00C15F30 /* Build configuration list for PBXNativeTarget "001-150-逆波兰表达式求值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A939660231B526D00C15F30 /* Debug */,
+				8A939661231B526D00C15F30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
